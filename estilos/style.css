@@ -1,0 +1,48 @@
+header{
+    text-align: center;
+    background: green;
+    border: green solid 3px;
+    display: inline;
+    margin: 0px -600px 100px 0px;
+    height: 222px;
+    width: 1239px;
+}
+body{
+    background:;
+    display: flex;
+}
+.section{
+    display: flex;
+}
+.Important{
+    text-transform: capitalize;
+    text-emphasis: block;
+    font-weight: bold;
+border: green solid 4px;
+}
+
+.paso1{
+background-color: orange;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: left;
+width: 551px;
+height: 234px;
+border: green solid 4px;
+margin: 238px -628px;
+}
+
+.paso2{
+    text-align: center;
+    width: 500px;
+    height: 229px;
+    border: green solid 4px;
+    margin: -477px -60px;
+
+}
+.paso3{
+    border: red solid 4px;
+    margin: 483px 90px 0px -625px;
+    height: 168px;
+    width: 532px;
+}
+}
