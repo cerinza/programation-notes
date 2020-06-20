@@ -1,14 +1,16 @@
 header{
     text-align: center;
-    background: green;
-    border: green solid 3px;
+    background: #94de13;
+   
     display: inline;
     margin: 0px -600px 100px 0px;
     height: 222px;
     width: 1239px;
 }
 body{
-    background:;
+    background: #1208ab;
+    color: #0c0101;
+
     display: flex;
 }
 .section{
@@ -18,7 +20,7 @@ body{
     text-transform: capitalize;
     text-emphasis: block;
     font-weight: bold;
-border: green solid 4px;
+
 }
 
 .paso1{
@@ -27,7 +29,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: left;
 width: 551px;
 height: 234px;
-border: green solid 4px;
+
 margin: 238px -628px;
 }
 
@@ -35,14 +37,22 @@ margin: 238px -628px;
     text-align: center;
     width: 500px;
     height: 229px;
-    border: green solid 4px;
+    background: #e43523;
     margin: -477px -60px;
 
 }
 .paso3{
-    border: red solid 4px;
+    
     margin: 483px 90px 0px -625px;
     height: 168px;
     width: 532px;
+   background:  #caae27;
 }
+.github{
+    display: block;
+    background: #fd0c0c;
+
+    width: 1220px;
+    height: 610px;
+    margin: 659px 31px 19px -1012px;
 }

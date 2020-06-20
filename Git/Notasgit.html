@@ -4,8 +4,8 @@
     <title>Git</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/style.css">
-    <title>Document</title>
+<!--     <link rel="stylesheet" href="../estilos/style.css">
+ -->    <title>Document</title>
 </head>
 <header>
     <h1>Git y gitHub</h1>
@@ -22,7 +22,7 @@
     <section class="primeros">
     <div>
     <p class="paso1">INICIAR GIT:<br/>
-
+        mkdir (nombre de la carpeta)= Crear un directorio/carpeta.<br/>
         git init=Crear la carpeta de git para que <br/>
         en la posicion actual se apliquen los comandos git.<br/>
         code= abrir el editor de codigo<br/>
@@ -47,6 +47,41 @@
     git reset (copy and paste the version) --soft= para volver a la version anterior y si se dio git add . se quedara<br/>
 
 </p></div>
+</section>
+<section class="github"><h1>GitHub</h1><br/>
+<h2>Como subir un codigo a github? </h2><br/>
+<h3>1. se copia el link que aparece en "clone with https" </h3><br/>
+<h3>2. despues de asegurar la posicion de carpeta en git bash con "pwd", se usa <h2>git remote add origin (direccion copiada)</h2> 
+    se comprueva con "git remote" y "git remote -v" </h3><br/>
+<h3>3. git push origin (mater o nombre de la rama que se va a enviar), se abrira la ventana de gitHub para poner las credenciales</h3><br/>
+<h3>4." git pull origin master" para traer lo de github y " git pull origin master --allow-unrelated-histories" para corregir el error de documentos no relacionados </h3>
+<h3>5. Despues de haber corregido cualquier error se hace de nuevo "git push origin (mater o nombre de la rama que se va a enviar)" </h3>
+<h1>Comprovar si funciono</h1>
+</section>
+<section><div><h1>Como unirse a un proyecto </h1><br/>
+    <h2>
+ 1. Ajustar la configuracion de github con el conrreo y el usuario<br/>       
+2. No crear el comando init en la carpeta creada con mkdir (nombre de la carpeta)<br/>
+3 No hacer el init si no traer el repositorio con el "clone or download" con https, se copia<br/>
+se verifica la carpeta escriviendo "git clone (Link del repositorio copiado de github)"<br/>
+4. se confirma las carpetas con ls -al  se entra a la carpeta con cd (nombre de la carpeta), <br/>
+<h1>para entrar a un archivo desde git se usa el comando vim (nombre del documento) </h1><br/>
+5. se guarda normalmente y se sube a github como se representa en "Como subir un codigo a github? "<br/>
+
+    </h2>
+</div>
+</section>
+<section><div><h1>Fork para que sirve y como se hace</h1>
+<h2>en la parte superior para hacer una copia personal del archivo y se lleva a el codigo personal para poder editarlo<br/>
+    luego se solicita a el creador que se le aga un merge para que los cambios sean adicionado al proyecto original<br/>
+    new pull request>seleccionar ramas para comparar y enviar>create pull request>se adiere el titulo>create pull request> Esperar la aceptacion del request<br/>
+    No close el pull request o sino se cancelara<br/>
+    <h1>Para aceptarlos request</h1><br/>
+    Review request>confirm>merge>cofirm merge.<br/>
+
+
+</h2>
+</div>
 </section>
     </body> 
 </html>
